@@ -1,0 +1,72 @@
+@import "../../../color-variables";
+
+.main-section{
+  padding: 70px 70px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span{
+  font-size: 25px;
+  font-weight: 700;
+  color: $secondary-text-color;
+  font-family: 'Metal Mania', cursive;
+}
+
+.slogan{
+  font-size: 52px;
+  font-weight: 700;
+  color: $highlight-color;
+  width: 75%;
+
+}
+
+.headline{
+  width: 50%;
+}
+
+img{
+
+}
+
+.benefit-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 70px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: $highlight-color;
+  font-family: 'Metal Mania', cursive;
+}
+
+@media (min-width: 1000px) {
+  .main-section{
+    flex-direction: row;
+  }
+
+  .benefit-section{
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .benefit-section p{
+    font-size: 20px;
+    word-spacing: 1.60px;
+
+  }
+
+  .mordor{
+    color: $mordor;
+  }
+
+
+}
