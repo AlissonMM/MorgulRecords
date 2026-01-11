@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap";
+
+@import "color-variables";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+
+  font-family: 'Roboto Condensed', serif;
+
+  color: $primary-text-color;
+}
