@@ -1,0 +1,11 @@
+<button (click)="submit()"
+        [class]="'btn ' + variant.toString()"
+        [disabled]="disabled">
+
+  @if (!loading){
+    {{ btnText }}
+  } @else {
+    Loading...
+  }
+
+</button>

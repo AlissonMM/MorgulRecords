@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 94px;
 }
 
 span{
@@ -25,7 +26,7 @@ span{
 }
 
 .headline{
-  width: 50%;
+
 }
 
 img{
@@ -39,12 +40,14 @@ img{
   justify-content: center;
   width: 100%;
   padding: 30px 70px;
+  gap: 84px;
 }
 
 h2 {
+  font-style: italic;
   font-size: 45px;
   font-weight: 400;
-  color: $highlight-color;
+  color: $mordor;
   font-family: 'Metal Mania', cursive;
 }
 
@@ -59,13 +62,25 @@ h2 {
   }
 
   .benefit-section p{
-    font-size: 20px;
+    font-size: 30px;
     word-spacing: 1.60px;
+    font-style: italic;
 
   }
 
   .mordor{
+    font-style: normal;
     color: $mordor;
+    font-size: 35px;
+  }
+
+  .form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 70px;
+
   }
 
 
