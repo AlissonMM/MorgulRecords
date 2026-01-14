@@ -16,4 +16,5 @@ import {BtnPrimary} from '../btn-primary/btn-primary';
 })
 export class Home {
 
+  protected readonly BtnPrimary = BtnPrimary;
 }
