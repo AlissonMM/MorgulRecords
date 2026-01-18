@@ -3,6 +3,7 @@ import {Header} from '../header/header';
 import {RouterOutlet} from '@angular/router';
 import {NgOptimizedImage} from '@angular/common';
 import {BtnPrimary} from '../btn-primary/btn-primary';
+import {Form} from '../form/form';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,7 @@ import {BtnPrimary} from '../btn-primary/btn-primary';
     Header,
     NgOptimizedImage,
     BtnPrimary,
+    Form,
   ],
   templateUrl: './home.html',
   styleUrl: './home.scss',
