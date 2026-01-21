@@ -1,5 +1,5 @@
 import {Component, Input, input, Output} from '@angular/core';
-import EventEmitter = require('node:events');
+import { EventEmitter } from '@angular/core';
 import {submit} from '@angular/forms/signals';
 
 type BntVariants = "primary" | "secondary";
@@ -19,6 +19,6 @@ export class BtnPrimary {
   @Output("submit") onSubmit = new EventEmitter();
 
   submit() {
-    // this.onSubmit.emit();
+    this.onSubmit.emit();
   }
 }

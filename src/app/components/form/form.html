@@ -15,11 +15,15 @@
       The Eye does not sleep. Stay informed. Stay metal.
     </p>
   </div>
-<form>
+<form [formGroup]="formGroup">
   <label for="name">Name</label>
-  <input id="name"/>
+  <input id="name" formControlName="name"/>
   <label for="email">Email</label>
-  <input id="email"/>
-  <app-btn-primary btn-text="Surrender your will" variant="secondary"/>
+  <input id="email" formControlName="email"/>
+  <app-btn-primary
+    btn-text="Surrender your will"
+    variant="secondary"
+    (submit)="onSubmit()"
+    [disabled]="!formGroup.valid"/>
 </form>
 </section>
