@@ -24,6 +24,7 @@
     btn-text="Surrender your will"
     variant="secondary"
     (submit)="onSubmit()"
-    [disabled]="!formGroup.valid"/>
+    [disabled]="!formGroup.valid"
+    [loading]="loading()"/>
 </form>
 </section>
